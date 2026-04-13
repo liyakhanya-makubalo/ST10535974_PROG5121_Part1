@@ -27,7 +27,6 @@ I first created a Login class that included of a username, password and a phone 
 
 Ater the user's details have been logged in, the information will be compared with the one that is saved and if they do not match they will get a return message if successful that says, "Welcome" + username + " it is great to see you agin." or if unsuccessful "Username or password incorrect, please try again"
 
----
 ##MainApp.java
 
 The MainApp allows the application to work and users to register.I started by importing the scanner class inside so that methods created in the login class can be used. A scanner object is created inside main method to allow user to enter their details. Then the registerUser method is used and the results are shown. User is then asked to enter details to login. After entering them a message will pop up to show if lohin was sucessful or not.
@@ -36,4 +35,11 @@ The MainApp allows the application to work and users to register.I started by im
 ##LoginTest.java
 
 you then do a login in test to know if your code is working or not.
+
+---
+##Features
+
+### Username Validation
+
+
 
