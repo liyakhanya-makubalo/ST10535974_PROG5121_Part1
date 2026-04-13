@@ -41,5 +41,15 @@ you then do a login in test to know if your code is working or not.
 
 ### Username Validation
 
+The username must contain an underscore and should contain five or less characters
+
+### Password Validation
+
+The password must be eight characters long, should include a capital letter and a special character
+
+###Phone Number Validation
+
+The number must start with a South African code and must be twelve characters long
+
 
 
