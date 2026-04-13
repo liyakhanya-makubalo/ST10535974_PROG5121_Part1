@@ -9,12 +9,14 @@
 
 ---
 ##Project Information
+
 I have created a chat app that consists of three classes:
 -Login.java
 -MainApp.java
 -LoginTest.java
 
 ##Login.java
+
 I first created a Login class that included of a username, password and a phone number. The user's details after being entered will be captured. User's details have requirements and restrictions on how the infromation they enter should be.
 
 -Username: The username needs to contain five characters or less and also include an underscore
@@ -27,9 +29,11 @@ Ater the user's details have been logged in, the information will be compared wi
 
 ---
 ##MainApp.java
+
 The MainApp allows the application to work and users to register.I started by importing the scanner class inside so that methods created in the login class can be used. A scanner object is created inside main method to allow user to enter their details. Then the registerUser method is used and the results are shown. User is then asked to enter details to login. After entering them a message will pop up to show if lohin was sucessful or not.
 
 
 ##LoginTest.java
-you then do a lgin in test to know if your code is working or not.
+
+you then do a login in test to know if your code is working or not.
 
